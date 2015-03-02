@@ -4,7 +4,7 @@ from functools import wraps
 
 import numpy as np
 
-from jpy.maths.diffeqns import RK4
+from jpy.maths.ode import RK4
 from jpy.maths.vector import vec_abs, gram_schmidt
 
 def augment_position(x, u):
